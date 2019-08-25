@@ -1,0 +1,202 @@
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+width:100%;
+overflow-x:hidden;
+height: 100%;
+padding-bottom:0;
+background-color:white;
+}
+
+p{
+font-size:5vh;
+padding:3vw;
+}
+
+/* --- GLOBAL STYLES START --- */
+
+.lineBreak{
+width:100%;
+height:2px;
+background-color:black;
+}
+
+.titleA{
+font-size:8vh;	
+font-weight:900;
+}
+
+.titleB{
+font-size:5vh;	
+}
+
+.hidden{
+display:none;
+}
+
+.cntr{
+text-align:center;
+}
+
+.centerImage{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+/* --- GLOBAL STYLES END --- */
+
+/* --- INDEX PAGE START --- */
+.headerBanner{
+width:100%;
+}
+
+.videoContainer{
+width:100%;
+background-color:black;
+}
+
+.videoStyler{
+}
+
+/* Header Parallax Element Style*/ 
+.paral{
+min-height:600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+background-color:white;
+}
+
+/* Paragraph for Parallax Section */ 
+.paral p{
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+ 
+/* Heading for Parallax Section */ 
+.paral h1{
+color: rgba(255, 255, 255, 0.8);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
+
+/* Image for Parallax Section */ 
+.techBackground_01{
+background-image: url("http://www.jsnetware.com/ASSETS/IMAGES/TechStackBackground_01.png");
+}
+
+.techBackground_02{
+background-image: url("http://www.jsnetware.com/ASSETS/IMAGES/TechStackBackground_02.png");	
+}
+
+.techBackground_03{
+background-image: url("http://www.jsnetware.com/ASSETS/IMAGES/TechStackBackground_03.png");
+}
+
+.techBackground_04{
+background-image: url("http://www.jsnetware.com/ASSETS/IMAGES/TechStackBackground_04.png");
+}
+
+.techBackground_06{
+background-image: url("http://www.jsnetware.com/ASSETS/IMAGES/Spectrum.png");
+}
+
+.techBackground_07{
+background-image: url("http://www.jsnetware.com/ASSETS/IMAGES/QA3_TESTING_PARALLAX.png");
+}
+
+.techBackground_08{
+background-image: url("http://www.jsnetware.com/ASSETS/IMAGES/QA_Background_01.jpg");
+}
+
+
+
+
+.paralsec1 {
+background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");}
+ 
+.paralsec2 {
+background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+}
+ 
+/* Add more images for more sections */
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+
+/* --- INDEX PAGE END --- */
+
+
+/* --- OUR APPS PAGE START --- */
+.smartphone{
+width:80%;
+}
+
+/* --- OUR APPS PAGE END --- */
+
+/* --- OUR TEAM/ HOMELESS SPOTLIGHTS PAGES START --- */
+.cardTitle{
+text-align:center;
+font-size:3vh; 
+font-weight:900;
+padding-top:1vh;
+}
+
+.cardText{
+text-align:center;
+font-size:2vh; 
+}
+/* --- OUR TEAM/ HOMELESS SPOTLIGHTS PAGES END --- */
+
+/* --- HELP/RESOURCES PAGES START --- */
+.companyIcon{
+width:20%;
+}
+/* --- HELP/RESOURCES PAGES END --- */
+
+.footer{
+text-align: center;
+width:100%;
+height:50vh;
+background-color:black;
+padding-top: 5vh;
+color:white;
+font-size:3vh;
+
+}
+
+.footerLogoText{
+	height:3vh;
+}
+
+@media (max-width:520px){
+
+/* --- INDEX PAGE START --- */
+.videoContainer{
+width:100%;
+background-color:black;
+}
+
+.paral{
+min-height:300px;
+background-size:100%;
+background-repeat:no-repeat;
+}
+/* --- INDEX PAGE END --- */
+
+/* --- OUR APPS PAGE START --- */
+
+.appDescription{
+text-align:center;
+}
+
+/* --- OUR APPS PAGE END --- */
+
+
+}
+
